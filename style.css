@@ -3,6 +3,12 @@
     padding: 0;
 }
 
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+/*Header part*/
 .header {
     background-color: #1f2947;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -11,7 +17,6 @@
     justify-content: space-around;
 }
 
-/*Header navigation bar*/
 .nav-bar {
     display: flex;
     justify-content: space-between;
@@ -58,10 +63,96 @@
     border-radius: 16px;
 }
 
-img {
+.header-img {
     max-width: auto;
     max-height: 220px;
     border-radius: 8px;
+}
+
+/*Second section of the page*/
+.info {
+    display: flex;
+    flex-direction: column;
+    padding: 16px;
+    background-color: beige;
+}
+
+.info-title {
+    text-align: center;
+    margin-bottom: 24px;
+    font-size: 32px;
+}
+
+.info-panel {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: 180px;
+    margin-right: 180px;
+}
+
+.img-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.info-img {
+    width: 200px;
+    height: 200px;
+    border-radius: 8px;
+    box-shadow: #1f2947;
+}
+
+.info-img-text {
+    text-align: center;
+    margin-top: 8px;
+    max-width: 200px;
+}
+
+/*Third section of the page*/
+.quote {
+    display: flex;
+    flex-direction: column;
+    background-color: darkslategray;
+    padding: 60px 180px;
+    align-items: center;
+    font-size: 24px;
+    color: bisque;
+}
+
+.quote-text {
+    max-width: 800px;
+    margin-bottom: 4px;
+}
+
+.quote-name {
+    display: flex;
+    text-align: right;
+    font-weight: 800;
+    margin-bottom: 16px;
+}
+
+.bottom {
+    display: flex;
+    justify-content: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 20px 240px;
+    margin-bottom: 16px;
+}
+
+.bottom-card {
+    display: flex;
+    justify-content: space-between;
+    background-color: lightseagreen;
+    border-radius: 16px;
+    padding: 32px;
+}
+
+.bottom-card-text {
+    padding-left: 20px;
+    padding-right: 20px;
+    max-width: 600px;
 }
 
 /*Links and Lists*/
