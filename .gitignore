@@ -1,0 +1,20 @@
+# Node modules (if using npm/yarn)
+node_modules/
+
+# Build output
+dist/
+build/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Environment files
+.env
+.env.local
+
+# VS Code settings
+.vscode/

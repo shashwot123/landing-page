@@ -1,0 +1,1 @@
+This is the landing page for a website. Made using HTML and CSS. I may improve upon it and add features in the future. For now, it is just a single webpage.
